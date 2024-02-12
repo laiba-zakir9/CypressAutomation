@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test1": "cypress open",
+    "customCommand": "cypress run --spec cypress/e2e/spec-copy-1.cy.js"
   },
   "keywords": [],
   "author": "",
@@ -12,4 +14,6 @@
   "devDependencies": {
     "cypress": "^13.6.4"
   }
+  
+
 }
